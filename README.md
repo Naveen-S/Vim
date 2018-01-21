@@ -107,10 +107,11 @@
         which is similar to 9dw: delete word 9 times.
     
                   
-            dd  : delete an entire line.
-            d$  : delete till end of the line.
+            dd       : delete an entire line.
+            d$ or D  : delete till end of the line.
             
             dG  : delete till end of the file.
             dgg : delete from cursor position to start of the file.
        
+       NOTE: `.` is used to repeat the previous command.
                   
