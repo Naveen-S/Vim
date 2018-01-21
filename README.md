@@ -19,12 +19,18 @@
   
   ### Basic commands
   
-   #####  Save 
+ #####  Save 
 
 >     wq  
  write and quit 
  
+ ##### quit
  
+ > q
+ quit when there is no changes to the file during that session, if there is it give a error saying `no write since last change`. Which means you havn't saved after last change that was being done. 
+ 
+ > q!
+ exclamation acts as a forced option, `q!` forced quit.
  
  
  ### Navigation
@@ -78,8 +84,33 @@
         :$ - last line of the file.
      
             
+ ### Deleting
  
+        x   : delete the next letter.
+        X   : delete the previous letter.
+   
+        dw  : delete a word.
+   *  pattern is `d` for delete and `w` for move by word. 
+                
+            d3w  : delete 3 words
+       
+            3dw  : delete a word and repeat 3 times.
+       
+   * Generic pattern ( count{operation}count{motion} )
+       
+        count| operation | count | motion | 
+       -------|-----------|-------|-----------
+       | 3    |      d    |    3  |   w    |  
+        
+        delete 3 words and repeat it 3 times.
+        
+        which is similar to 9dw: delete word 9 times.
     
                   
+            dd  : delete an entire line.
+            d$  : delete till end of the line.
+            
+            dG  : delete till end of the file.
+            dgg : delete from cursor position to start of the file.
        
                   
