@@ -115,3 +115,29 @@
        
        NOTE: `.` is used to repeat the previous command.
                   
+                  
+ ### Help system
+      
+     > :help or :h 
+     
+   to get help for particular command.
+   
+   ex:
+         
+       :h dd
+   Give information about `dd` command.
+   
+   
+   Note: Whatever use you inside square bracket in vim help system is optional. 
+        ex: 
+           
+           :h dd
+            
+            dd                  Delete [count] lines [into register x] |linewise|. 
+    
+   specifying count and into register x is optional.
+   
+   
+    Ctrl + o        : to go previous help search
+    Ctrl + i        : to go next help search
+    Ctrl + w + w    : toggle between your file and help file.
