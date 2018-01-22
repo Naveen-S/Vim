@@ -141,3 +141,17 @@
     Ctrl + o        : to go previous help search
     Ctrl + i        : to go next help search
     Ctrl + w + w    : toggle between your file and help file.
+    
+    
+### Cut, copy and paste
+
+* Comparison between standard editors vs vim 
+   
+   Standard | Vim  |
+   ---------|-----------
+   cut     |   delete d
+   copy    |   yank   y
+   paste   |   put    p
+
+   Same pattern + motion works here as well.
+   
