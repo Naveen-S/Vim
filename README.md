@@ -155,3 +155,5 @@
 
    Same pattern + motion works here as well.
    
+   3yy - copy 3 lines.
+
