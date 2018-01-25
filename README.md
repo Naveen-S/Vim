@@ -152,10 +152,37 @@
    cut     |   delete d
    copy    |   yank   y
    paste   |   put    p
+   
+   undo : u
+   Redo : ctrl + R
 
    Same pattern + motion works here as well.
    
          3yy - copy 3 lines.
          
    #### Registers
+        
+        Registers are storage locations.
+        
+   Types of registers:
+    
+        *   Unnamed registers   : ""
+        *   Numbered registers  : "0 "1 .... "9
+        *   named registers     : "a "b .... "z 
 
+    Notes about Numbered registers:
+        
+        * "0    : stores the last yanked data.
+        * "1    : stores the last deleted data.
+        * ""    : stores the data of last operation
+        
+   
+    Notes about named registers
+       
+        * "a    : stores the data in register named a.
+        * "A    : Append to the data which is already present in a register.
+
+    To know the content of register 
+        
+            :reg
+     
