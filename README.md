@@ -186,3 +186,54 @@
         
             :reg
      
+   #### Insertion
+        
+		 i	: to enter insert mode.
+         I	: to start entering from the beginning of the line.
+         
+		 
+		 f[any character]	: move to that character in the line.
+		 
+		 
+		 a	: insert after the cursor postion.
+		 A	: start appending text at the end of the line.
+		 
+		 
+		 o	: enter insert mode on the next line.
+		 O	: enter insert mode on the previous line.
+		 
+		 
+		 J	: to join to lines.
+		 
+		 
+		 R	: to enter replace mode
+		 r	: to replace only only character without leaving the normal mode.
+		 
+		 
+		 c	: change word.
+		 EX: I love black girls.
+		 		Point your cursor at black and then press cw (change word)
+				and enter your text as you'll be in insert mode and then press escape.
+				
+		cW : change word with punctuations. 
+		
+		
+		
+		~	: to change the case of a letter.
+		g~w	: change the case of a word.
+		g~~	: Negate the case of entire line.
+		
+		
+		gUw	: change the entire word after cursor position to uppercase.
+		guw	: change the entire word from cursor position to uppercase.
+		
+		
+		
+  #### Repeating commands
+	
+		Create a line of asterisks below:
+		-	80i --> you'll enter insert mode, enter * and press escape.
+		
+		Create 3 lines that begin with "-" below:
+		-	3o --> insert mode, enter - and press escape
+		
