@@ -240,7 +240,7 @@
 	
   #### Search Find and Replace
   	
-     ###### Letter Search
+  ###### Letter Search
 	
 		f{char}	: forward search that character in a line.
 		F{char}	: reverse search that character in a line.
@@ -250,8 +250,9 @@
 		
 		;	: repeat in forward direction.
 		,	: repeat in reverse direction.
-		
-    ###### Word Search
+
+
+  ###### Word Search
     		
 		/{word} : forward search in the file.
 		?{word}	: reverse search in the file. 
@@ -260,9 +261,10 @@
 		
 		*	: to highlight all occurance forward.
 		#	: to highlight all occurance backward.
+
+
 		
-		
-    ###### Substitution
+ ###### Substitution
     		
 		:[range]s/old/new/[flags]
 		
