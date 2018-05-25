@@ -189,7 +189,7 @@
    #### Insertion
         
 		 i	: to enter insert mode.
-         I	: to start entering from the beginning of the line.
+         	 I	: to start entering from the beginning of the line.
          
 		 
 		 f[any character]	: move to that character in the line.
@@ -237,3 +237,36 @@
 		Create 3 lines that begin with "-" below:
 		-	3o --> insert mode, enter - and press escape
 		
+	
+  #### Search Find and Replace
+  	
+     ###### Letter Search
+	
+		f{char}	: forward search that character in a line.
+		F{char}	: reverse search that character in a line.
+		
+		t{char} : forward search till (before that character) that character in a line.
+		T{char}	: reverse search till character in a line.
+		
+		;	: repeat in forward direction.
+		,	: repeat in reverse direction.
+		
+    ###### Word Search
+    		
+		/{word} : forward search in the file.
+		?{word}	: reverse search in the file. 
+		n	: go to next match.
+		N	: go to prevous match.
+		
+		*	: to highlight all occurance forward.
+		#	: to highlight all occurance backward.
+		
+		
+    ###### Substitution
+    		
+		:[range]s/old/new/[flags]
+		
+	Global substitution
+		
+		:%s/old/new/g
+				
