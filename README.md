@@ -268,7 +268,31 @@
     		
 		:[range]s/old/new/[flags]
 		
+		- range can be:
+					
+			$		: last line.
+			.		: current line.
+			1s		: first line.
+			1,5s/old/new/g	: 1st to 5th line.
+			1,$		: 1st to last line.
+			%		: Entire file.
+			
+			OR it can also be pattern
+			
+			/Global/,/Local/s/old/new/g	: from text GLobal till Local do that subtitution.
+			/Local/,$s/old/new/g		: from text Local till end of the file do that 
+										substitution. 
+			
 	Global substitution
 		
 		:%s/old/new/g
 				
+
+#### Note: 
+	
+		- set is			: incremental search
+		- set hls/hlsearch	: highlight search
+		- set nu			: show number
+		
+		To unset use no{configname}
+		To toggle conginame!
