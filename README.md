@@ -323,4 +323,13 @@
    '      |   single quotes
    \[ , ( , { |   self explanatory
    
-   
+  
+  
+  #### Macros
+
+		q {name of the register}`: to start recording the macro.
+		@{name of the register} to play that macro.
+		@@ to play the last macro.
+		q{capital of the register} to append to the macro.
+		
+		
