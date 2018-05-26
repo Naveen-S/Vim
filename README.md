@@ -296,3 +296,31 @@
 		
 		To unset use no{configname}
 		To toggle conginame!
+
+
+#### Text objext
+	
+		
+	a	: around / all
+	i	: inner/ inside
+	
+	Ex: To delete a word when a cursor is somewhere in the middle of the text.
+		- daw	: deletes the following delimiter as well like a space, comma etc.
+		- diw	: deletes only the word.
+		- ciw	: change inner word.
+		
+	Sentences:
+		- das	: delete the sentence including the delimiter.
+		- cis	: change the inner sentence.
+
+* Operations with text objects 		
+		
+     Action | explanation |
+   ---------|--------------|
+   p      |   paragraph  
+   t      |   tag      |  
+   "      |   double quotes
+   '      |   single quotes
+   \[ , ( , { |   self explanatory
+   
+   
