@@ -332,4 +332,28 @@
 		@@ to play the last macro.
 		q{capital of the register} to append to the macro.
 		
-		
+  
+  #### Visual Mode
+  
+  * There are three type of visual modes:
+  	
+	- Characterwise : v to enter characterwise visual mode
+	- Line wise		: V to enter linewise visual mode
+	- Block wise	: Ctrl + v to enter block wise visual mode
+	
+
+* Just some of commands you can use in visual mode include:
+
+		~ - Switch case
+		c - Change
+		d - Delete
+		y - Yank
+		r - Replace
+		x - Delete
+		I - Insert
+		A - Append
+		J - Join
+		u - Make lowercase
+		U - Make uppercase
+		> - Shift right
+		< - Shift left
