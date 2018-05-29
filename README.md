@@ -378,3 +378,13 @@
 	:E 	- Explore directory like ls.	     
 		     
 	
+#### Windows 
+	
+	:sp 	: to split a window horizontally.
+	:vs	: to split a window verically.
+	
+	ctrl + w w : navigate between the windows.
+	
+	Use ctrl + w {j/k/l/h} : for moving between the windows.
+	
+	windo %s/old/new/g 	: to perform some substitution on all open windows.
