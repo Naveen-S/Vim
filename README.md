@@ -373,5 +373,8 @@
 	:bd | :bdelete	: delete the file from the buffer.
 	:bufdo		: execute a command on all the buffers.
 	
-	set hidden - It's a config to say I will move between the buffers without saving and save all at once if maybe.
+	set hidden - It's a config to say I will move between the buffers without saving and save all at
+		     once if maybe.
+	:E 	- Explore directory like ls.	     
+		     
 	
