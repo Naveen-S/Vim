@@ -357,3 +357,21 @@
 		U - Make uppercase
 		> - Shift right
 		< - Shift left
+		
+#### Buffers
+
+	Use to open mutiple files in vim.
+	
+	:e  | :edit 	: open file from vim
+	:ls | :buffers	: show list of files in buffer
+	:b  | :buffer	: switch to other buffer. Ex b{buffer-no} or b {filename}
+	:bn | :bnext	: go to next buffer
+	:bp | :bprevious : go to previous buffer
+	:bl | :blast	: go to last buffer
+	:bf | :bfirst	: go to first buffer
+	:badd 		: add a file to the buffer without moving from your current file.
+	:bd | :bdelete	: delete the file from the buffer.
+	:bufdo		: execute a command on all the buffers.
+	
+	set hidden - It's a config to say I will move between the buffers without saving and save all at once if maybe.
+	
